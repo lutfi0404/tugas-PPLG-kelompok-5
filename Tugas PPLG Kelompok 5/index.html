@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Restoran bawah lawut</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        :root {
+            --chocolate: #1b3c59;
+            --emerald: #0a6c74;
+            --crimson: #ff7f50;
+            --cream: #f0f8ff;
+        }
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: var(--chocolate);
+            background-color: var(--cream);
+        }
+        header {
+            background-color: var(--chocolate);
+            color: var(--cream);
+            text-align: center;
+            padding: 30px 0;
+            border-bottom: 6px solid var(--emerald);
+        }
+        h1 {
+            margin: 0;
+            letter-spacing: 3px;
+            font-size: 2.5rem;
+            text-transform: uppercase;
+        }
+
+        .menu-container {
+            display: flex;
+            justify-content: space-around;
+            padding: 40px 20px;
+            flex-wrap: wrap;
+        }
+        .category-box {
+            flex: 1;
+            min-width: 280px;
+            margin: 15px;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        ul.categories {
+            list-style-type: square;
+            color: var(--crimson);
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+        .category-title {
+            font-size: 1.6rem;
+            font-weight: bold;
+            color: var(--emerald);
+        }
+
+        h3 {
+            color: var(--crimson);
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin-top: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        h4 {
+            font-size: 0.95rem;
+            margin-left: 0;
+            margin-top: 5px;
+            line-height: 1.5;
+            opacity: 0.8;
+        }
+
+        .steps-section {
+            background-color: var(--emerald);
+            color: var(--cream);
+            padding: 40px;
+            margin: 50px auto;
+            max-width: 700px;
+            border-radius: 15px;
+            text-align: center;
+        }
+
+        ol.steps {
+            display: inline-block;
+            text-align: left;
+            padding: 0;
+            list-style-position: inside;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>makanan bawah lawut
+    </h1>
+</header>
+
+<div class="menu-container">
+
+    <div class="category-box">
+        <ul class="categories">
+            <li class="category-title">Menu Utama Seafood</li>
+        </ul>
+            <h3>Kepiting Saus Padang</h3>
+            <h4>Kepiting segar dimasak dengan saus pedas manis khas Padang</h4>
+
+            <h3>Udang Bakar Madu</h3>
+            <h4>Udang besar dibakar dengan olesan madu dan bumbu spesial</h4>
+    </div>
+
+    <div class="category-box">
+        <ul class="categories">
+            <li class="category-title">Minuman Segar</li>
+        </ul>
+            <h3>Es Kelapa Muda</h3>
+            <h4>Kelapa segar dengan es dan sirup manis yang menyegarkan</h4>
+
+            <h3>Lemon Tea</h3>
+            <h4>Teh dingin dengan perasan lemon asli</h4>
+    </div>
+
+    <div class="category-box">
+        <ul class="categories">
+            <li class="category-title">Cemilan Laut</li>
+        </ul>
+            <h3>Cumi Goreng Tepung</h3>
+            <h4>Cumi renyah dengan balutan tepung crispy</h4>
+
+            <h3>Kerang Saus Tiram</h3>
+            <h4>Kerang segar dimasak dengan saus tiram gurih</h4>
+    </div>
+    <div class="category-box">
+        <ul class="categories">
+            <li class="category-title">Minuman panas</li>
+        </ul>
+            <h3>Jeruk panas</h3>
+            <h4>Jeruk segar yang di peras dan dipanaskan</h4>
+
+            <h3>Susu jahe</h3>
+            <h4>Susu hangat dengan jahe merah</h4>
+    </div>
+
+</div>
+
+<div class="steps-section">
+    <h2>Cara Pemesanan</h2>
+    <ol class="steps" type="I">
+        <li>Pilih menu seafood favorit Anda</li>
+        <li>Lakukan pembayaran di kasir QRIS</li>
+        <li>Tunggu pesanan diantar ke meja Anda</li>
+    </ol>
+</div>
+</body>
+</html>
